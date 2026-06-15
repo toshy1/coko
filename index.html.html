@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Результаты ГИА</title>
+
+<style>
+*{h3{
+    color:#0057c7;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+p{
+    line-height:1.6;
+}
+
+ul{
+    padding-left:25px;
+    line-height:1.8;
+}
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#efefef;
+    color:#333;
+}
+
+.container{
+    width:1700px;
+    margin:0 auto;
+}
+
+/* HEADER */
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:10px;
+}
+
+.logo{
+    width:360px;
+}
+
+.logo-box{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo-circle{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:linear-gradient(#f6d46c,#c88c00);
+    border:3px solid #2b4c9d;
+}
+
+.logo-text{
+    font-size:80px;
+    color:#2445a5;
+    font-weight:bold;
+    line-height:0.8;
+}
+
+.logo-sub{
+    color:#b16c00;
+    font-size:18px;
+    margin-left:95px;
+}
+
+.main-title{
+    text-align:center;
+    flex:1;
+    margin-top:15px;
+}
+
+.main-title h1{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.login-panel{
+    width:260px;
+    border:1px solid #cfcfcf;
+    background:#f5f5f5;
+    padding:8px;
+}
+
+.login-panel select,
+.login-panel input{
+    width:100%;
+    margin-bottom:4px;
+}
+
+.login-panel button{
+    width:100%;
+    background:#005fd1;
+    color:white;
+    border:none;
+    padding:4px;
+    cursor:pointer;
+}
+
+.blue-line{
+    height:4px;
+    background:#005fc9;
+}
+
+/* CONTENT */
+
+.content{
+    display:flex;
+    gap:20px;
+    padding:20px 10px;
+}
+
+/* LEFT MENU */
+
+.sidebar{
+    width:180px;
+}
+
+.menu-title{
+    background:linear-gradient(#3d92ff,#0058bf);
+    color:white;
+    padding:6px 12px;
+    border-radius:4px 4px 0 0;
+}
+
+.menu{
+    border:1px solid #c5c5c5;
+    background:white;
+}
+
+.menu a{
+    display:block;
+    padding:8px 10px;
+    color:#0056b3;
+    text-decoration:none;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.menu a:hover{
+    background:#f3f7ff;
+}
+
+/* NEWS */
+
+.news{
+    flex:1;
+}
+
+.news-item{
+    margin-bottom:35px;
+}
+
+.news-date{
+    color:#888;
+    font-size:14px;
+    margin-bottom:4px;
+}
+
+.news-title{
+    color:#0059c7;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.news-link{
+    display:block;
+    color:#0059c7;
+    margin-top:4px;
+    font-size:14px;
+}
+
+.news-content{
+    margin-top:12px;
+    line-height:1.5;
+    border-left:4px solid #2d7bdc;
+    padding-left:15px;
+}
+
+/* RIGHT BLOCK */
+
+.stats{
+    width:340px;
+}
+
+.stats-title{
+    text-align:center;
+    color:#0057c7;
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.stats-box{
+    border:1px solid #c8c8c8;
+    background:white;
+    padding:10px;
+    max-height:700px;
+    overflow-y:auto;
+}
+
+.stats table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:14px;
+}
+
+.stats th{
+    border-bottom:1px solid #ccc;
+    padding:6px;
+}
+
+.stats td{
+    padding:4px;
+}
+
+.stats td:last-child,
+.stats td:nth-child(2){
+    text-align:center;
+}
+footer{
+    margin-top:40px;
+    padding:20px;
+    text-align:center;
+    font-size:12px;
+    color:#777;
+    border-top:1px solid #cfcfcf;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+
+        <div class="logo">
+            <div class="logo-box">
+                <div class="logo-circle"></div>
+
+                <div>
+                    <div class="logo-text">ЦОКО</div>
+                    <div class="logo-sub">Томской области</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-title">
+            <h1>
+                Результаты ГИА-11 и ГИА-9 в 2026 году<br>
+                в Томской области
+            </h1>
+Последнее обновление: 15.06.2026 23:41 |
+Опубликовано результатов: 14825 |
+Активных пользователей: 312
+        </div>
+
+        <div class="login-panel">
+            <select>
+                <option>Выпускник</option>
+            </select>
+
+            <input value="Шовкань" readonly>
+            <input value="69 22" readonly>
+            <input value="007087" readonly>
+
+
+
+           <div style="
+    color:green;
+    text-align:center;
+    font-weight:bold;
+    margin-top:8px;
+">
+    Выполнен вход
+</div>
+
+<div style="text-align:center;margin-top:8px;">
+    <a href="#">Выйти из системы</a>
+</div>
+        </div>
+
+    </div>
+
+    <div class="blue-line"></div>
+
+    <div class="content">
+
+        <!-- LEFT -->
+
+        <aside class="sidebar">
+
+    <div class="menu-title">Навигация</div>
+
+    <div class="menu">
+        <a href="#">Главная страница</a>
+        <a href="#">Результаты ЕГЭ</a>
+    </div>
+
+</aside>
+
+        <!-- CENTER -->
+
+        <main class="news">
+
+    <div class="stats-box">
+
+        <h2 style="margin-bottom:20px;color:#0057c7;">
+            Результаты ЕГЭ
+        </h2>
+
+        <table style="width:100%;border-collapse:collapse;">
+
+            <tr>
+                <td><b>ФИО</b></td>
+                <td>
+    <span class="fio-value">
+        ШОВКАНЬ СНЕЖАНА АРТЕМОВНА
+    </span>
+</td>
+            </tr>
+
+            <tr>
+                <td><b>Паспорт</b></td>
+                <td>6922 007087</td>
+            </tr>
+
+            <tr>
+                <td><b>Статус</b></td>
+                <td>Результаты найдены</td>
+            </tr>
+
+        </table>
+
+        <br>
+
+        <table
+            style="
+            width:100%;
+            border-collapse:collapse;
+            text-align:center;
+            "
+        >
+
+            <tr style="background:#f2f2f2;">
+                <th style="border:1px solid #ccc;padding:10px;">
+                    Предмет
+                </th>
+
+                <th style="border:1px solid #ccc;padding:10px;">
+                    Балл
+                </th>
+            </tr>
+
+            <tr>
+                <td style="border:1px solid #ccc;padding:10px;">
+                    Русский язык
+                </td>
+
+                <td style="border:1px solid #ccc;padding:10px;">
+                    72
+                </td>
+            </tr>
+
+            <tr>
+                <td style="border:1px solid #ccc;padding:10px;">
+                    Математика
+                </td>
+
+                <td style="border:1px solid #ccc;padding:10px;">
+                    4
+                </td>
+            </tr>
+
+            <tr>
+                <td style="border:1px solid #ccc;padding:10px;">
+                    География
+                </td>
+
+                <td style="border:1px solid #ccc;padding:10px;">
+                    78
+                </td>
+            </tr>
+
+            <tr>
+                <td style="border:1px solid #ccc;padding:10px;">
+                    История
+                </td>
+
+                <td style="border:1px solid #ccc;padding:10px;">
+                    -
+                </td>
+            </tr>
+
+        </table>
+
+<hr style="margin:25px 0;">
+
+<h3>Информация для участников ГИА</h3>
+
+<p>
+Настоящий сервис предназначен для ознакомления участников
+государственной итоговой аттестации с результатами экзаменов.
+</p>
+
+<p>
+Результаты публикуются по мере поступления данных из
+регионального центра обработки информации.
+</p>
+
+<hr style="margin:25px 0;">
+
+<h3>Последние объявления</h3>
+
+<ul>
+    <li>15.06.2026 — опубликованы результаты по русскому языку.</li>
+    <li>14.06.2026 — завершена обработка экзаменационных материалов.</li>
+    <li>12.06.2026 — проводится проверка работ основного периода ГИА.</li>
+    <li>10.06.2026 — начата публикация результатов ЕГЭ 2026 года.</li>
+</ul>
+
+<hr style="margin:25px 0;">
+<hr style="margin:25px 0;">
+
+<h3>Сводная информация</h3>
+
+<table class="mini-table">
+
+<tr>
+    <td>Всего экзаменов</td>
+    <td>4</td>
+</tr>
+
+<tr>
+    <td>Средний балл</td>
+    <td>51.3</td>
+</tr>
+
+<tr>
+    <td>Дата публикации</td>
+    <td>15.06.2026</td>
+</tr>
+
+<tr>
+    <td>Статус обработки</td>
+    <td>Завершена</td>
+</tr>
+
+</table>
+
+<h3>Порядок подачи апелляции</h3>
+
+<p>
+Апелляция о несогласии с выставленными баллами подается
+в течение двух рабочих дней после официального объявления результатов.
+</p>
+
+<p>
+Для подачи апелляции необходимо обратиться в образовательную организацию.
+</p>
+
+<hr style="margin:25px 0;">
+
+<h3>Контактная информация</h3>
+
+<p>
+Региональный центр обработки информации Томской области
+</p>
+
+<p>
+Телефон: +7 (3822) 90-63-24
+</p>
+
+<p>
+Электронная почта: support@coko.local
+</p>
+
+
+    </div>
+
+</main>
+
+        <!-- RIGHT -->
+
+        <aside class="stats">
+
+            <div class="stats-title">
+                Данные об экзаменах
+            </div>
+
+            <div class="stats-box">
+
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Экзамен</th>
+                        <th>Выбравших</th>
+                        <th>Результатов</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+
+<tbody>
+
+<tr><td>СОЧИН-11</td><td>5069</td><td>5032</td></tr>
+<tr><td>ИЗЛОЖ-11</td><td>75</td><td>73</td></tr>
+<tr><td>ГЕО-11</td><td>250</td><td>194</td></tr>
+<tr><td>АНГ-11</td><td>449</td><td>381</td></tr>
+<tr><td>РУС-11</td><td>5207</td><td>4907</td></tr>
+<tr><td>БИО-11</td><td>826</td><td>686</td></tr>
+<tr><td>ХИМ-11</td><td>577</td><td>493</td></tr>
+<tr><td>ФИЗ-11</td><td>769</td><td>694</td></tr>
+<tr><td>ИНФ-11</td><td>749</td><td>529</td></tr>
+<tr><td>МАТБ-11</td><td>2687</td><td>2540</td></tr>
+<tr><td>МАТП-11</td><td>2466</td><td>2190</td></tr>
+<tr><td>ОБЩ-11</td><td>1809</td><td>1422</td></tr>
+<tr><td>ИСТ-11</td><td>625</td><td>558</td></tr>
+<tr><td>ЛИТ-11</td><td>281</td><td>192</td></tr>
+<tr><td>НЕМ-11</td><td>45</td><td>39</td></tr>
+<tr><td>ФРАН-11</td><td>12</td><td>9</td></tr>
+<tr><td>КИТ-11</td><td>6</td><td>5</td></tr>
+<tr><td>ИСП-11</td><td>4</td><td>4</td></tr>
+<tr><td>ГЕО_РЕЗ-11</td><td>41</td><td>39</td></tr>
+<tr><td>РУС_РЕЗ-11</td><td>66</td><td>56</td></tr>
+<tr><td>МАТ_РЕЗ-11</td><td>54</td><td>48</td></tr>
+<tr><td>ИНФ_РЕЗ-11</td><td>17</td><td>15</td></tr>
+
+
+
+                    </tbody>
+
+                </table>
+                <div style="margin-top:15px;text-align:center;">
+    <a href="#">
+        Показать архив прошлых лет
+    </a>
+</div>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+</div>
+<footer>
+
+    © 2026 Региональный центр обработки информации
+
+    <br>
+
+    Версия системы: 2.6.14
+
+    <br>
+
+    Последнее обновление:
+    15.06.2026
+
+</footer>
+
+</body>
+</html>
